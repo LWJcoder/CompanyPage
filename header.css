@@ -1,0 +1,195 @@
+
+#container{
+	min-width: 1280px;
+
+}
+
+.logo{
+	background: url(img/logo.png) 0% 50%;
+	width: 120px;
+	font-size: 25px;
+	text-indent: 45px;
+	font-family: "微软雅黑";
+	font-style: black;
+	background-repeat: no-repeat;
+	/*margin-left: 34px;*/
+}
+
+.top{
+	width: 100%;
+	height: 37px;
+	
+}
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+ul li{
+	list-style: none;
+}
+
+.listTop{
+	margin-top: 0;
+	margin-left: 35px;
+}
+
+.listTop li a{
+	margin: 0 35px;
+	display: inline-block;
+
+	color: rgb(124,122,130);
+	
+}
+
+.line{
+	background: url(img/line.png) 0% 50% no-repeat;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.listTop li:hover a{
+	transition: all 0.5s;
+	color: black;
+}
+
+.login{
+	top: 0;
+	margin-right: 0;
+	background: url(img/login.png) 0% 50% no-repeat; 
+	text-indent: 25px;
+	color: rgb(241,52,12);
+}
+
+
+#banner{	
+	margin-top: 0;
+	padding: 0;
+	width: 100%;
+	height: 1200px;
+	margin:0;
+	padding: 0;
+
+}
+
+#banner .banner_img{
+	width: 100%;
+	height: 690px;	
+	background: url(img/p1.png) no-repeat;
+	background-size: cover;
+	padding-top: 221px;
+	padding-left: 121px;
+
+}
+
+.banner_img h3{
+	font-size: 60px;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+.banner_img p{
+	font-size: 21px;
+	color: white;
+	margin-top: 34px; 
+	font-family: "微软雅黑";
+}
+
+.btn{
+	width: 330px;
+	height: 63px;
+	background-color: rgb(233,79,77);
+	color: white;
+	display: block;
+	cursor: pointer;
+	transform: all 0.5x;
+	text-align: center;
+	font-size: 34px;
+	padding-top: 15px;
+	font-family: "微软雅黑";
+	margin-top: 66px;
+}
+
+.btn:hover{
+	background-color: rgb(250,250,250);
+	color:  rgb(233,79,77);
+}
+
+#banner .opt{
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	padding-top: 44px;	
+	margin-left: 1px;	
+}
+
+#banner .opt li{
+	float: left;
+	width: 25%;
+	height: 100%;
+ color:#787476;
+	word-wrap: break-word;
+}
+
+.fir{
+
+	background: url(http://jabbla.github.io/xilixili-review/mission_7/img/round_icon.png) top center;
+	background-repeat: no-repeat;
+
+	
+}
+
+.sec{
+	background: url(http://jabbla.github.io/xilixili-review/mission_7/img/flag_icon.png) top center;
+	background-repeat: no-repeat;
+}
+
+.third{
+	background: url(http://jabbla.github.io/xilixili-review/mission_7/img/flower_icon.png) top center;
+	background-repeat: no-repeat;}
+
+.four{
+	background: url(http://jabbla.github.io/xilixili-review/mission_7/img/four_icon.png) top center;
+	background-repeat: no-repeat;}
+
+#banner .opt li p{
+
+	height: 52px;
+	margin-top: 89px;
+	padding-left: 70px;
+	padding-right: 70px;
+	
+	text-align: center;
+	border-right: 1px solid #787476;
+
+}
+
+.new_world_ac{
+	height: 320px;
+	width: 100%;
+	background-color: #EDEDED;
+
+}
+
+.banner{
+	background-color: #EDEDED;;
+	width: 100%;
+	height: 250px;
+}
+
+.banner img{
+	margin-left: 48%;
+}
+
+.banner .newW{
+	font-size: 53.5px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #8F8D8E;
+}
